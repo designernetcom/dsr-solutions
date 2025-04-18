@@ -6327,16 +6327,17 @@ header.main-header .header-sticky.active{
 .ftr-section span,i{
 	color:  #6acafc!important;
 }
-.footer-btm{
-	display: flex;
-	justify-content: center;
-}
+
 .products-carasol img{
 	max-height: 300px ;
 }
 .section-title-center h5{
 	font-size: 24px;
 	font-weight: 600;
+}
+.section-title h2{
+	margin-top: -20px;
+	margin-bottom: -20px;
 }
 p{
 	font-size: 16px !important;
@@ -6367,4 +6368,39 @@ footer p{
 
 h3{
 	color: #0a5295 !important;
+}
+.fix-icon i{
+  font-size: 30px;
+  
+  color: rgb(255, 255, 255) !important;
+  margin-top: 5px;
+  padding: 5px ;
+ border-radius: 5px;
+  
+
+  
+}
+.fix-icon{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	position: fixed;
+	top: 300px;
+	right: 0px;
+	z-index: 9999 !important;
+}
+.fix-icon .fa-facebook{
+	background-color: #3b5998 !important;
+	font-size: 25px;
+}
+.fix-icon .fa-instagram{
+	
+	background: radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%), radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%) !important;
+}
+.fix-icon .fa-youtube{
+	background-color: #b81e33 !important;
+	font-size: 24px;
+}
+.fix-icon .fa-whatsapp{
+	background-color: green !important;
 }
