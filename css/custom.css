@@ -430,7 +430,7 @@ body{
 }
 
 .section-title h2{
-	font-size: 48px;
+	font-size: 38px;
 	margin-bottom: 0;
 	cursor: none;
 }
@@ -2489,7 +2489,7 @@ header.main-header .header-sticky.active{
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: var(--accent-color);
+    background-color: #0a5295;
     border-radius: 50%;
     height: 100%;
     width: 100%;
@@ -6282,7 +6282,7 @@ header.main-header .header-sticky.active{
       transform: translateX(0);
     }
     100% {
-      transform: translateX(calc(-250px * 7));
+      transform: translateX(calc(-250px * 20));
     }
   }
 .client-slider img{
@@ -6403,4 +6403,13 @@ h3{
 }
 .fix-icon .fa-whatsapp{
 	background-color: green !important;
+}
+.fix-icon .fa-linkedin{
+	background-color:#0077B5 !important;
+}
+.fourth-service img{
+	margin-top: 50px !important;
+}
+.fifth-service img{
+	margin-top: 24px !important;
 }
