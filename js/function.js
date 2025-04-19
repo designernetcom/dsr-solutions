@@ -340,3 +340,36 @@
 	}
 	
 })(jQuery);
+
+
+
+
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+	const submenuLinks = document.querySelectorAll(".submenu > .nav-link");
+
+	submenuLinks.forEach(link => {
+		link.addEventListener("click", function (e) {
+			// Only activate toggle on mobile
+			if (window.innerWidth <= 991) {
+				e.preventDefault();
+
+				const parent = this.parentElement;
+
+				// Toggle only this one
+				parent.classList.toggle("show");
+			}
+		});
+	});
+
+	// Optional: close all when clicking outside
+	document.addEventListener("click", function (e) {
+		if (window.innerWidth <= 991 && !e.target.closest(".submenu")) {
+			document.querySelectorAll(".submenu").forEach(item => item.classList.remove("show"));
+		}
+	});
+});
