@@ -573,7 +573,7 @@ header.main-header .header-sticky.active{
 	padding: 0;
 	margin: 0;
 	list-style: none;
-	width: 370px;
+	width: 240px;
 	border-radius: 2px;
 	position: absolute;
 	left: 0;
@@ -6413,3 +6413,126 @@ h3{
 .fifth-service img{
 	margin-top: 24px !important;
 }
+
+
+
+
+/* ul.dropdown {
+	display: none;
+	position: absolute;
+	background: white;
+	padding: 10px;
+	list-style: none;
+	z-index: 999;
+  }
+  
+  li.submenu {
+	position: relative;
+  }
+  
+  li.submenu:hover > ul.dropdown {
+	display: block;
+  }
+  
+  /* Position nested dropdowns to the right */
+
+
+/* 
+  li.submenu ul.dropdown li.submenu:hover > ul.dropdown {
+	left: 100%;
+	top: 0;
+	display: block;
+	position: absolute;
+  } 
+
+
+ul.dropdown {
+	display: none;
+	position: absolute;
+	background: white;
+	padding: 10px;
+	list-style: none;
+	z-index: 999;
+  }
+  
+  li.submenu {
+	position: relative;
+  }
+  
+  li.submenu:hover > ul.dropdown {
+	display: block;
+  }
+  
+
+  li.submenu ul.dropdown li.submenu:hover > ul.dropdown {
+	left: 100%;
+	top: 0;
+	display: block;
+	position: absolute;
+  }
+  
+ 
+  @media (max-width: 991px) {
+	ul.dropdown {
+	  position: static;
+	  display: none;
+	  padding-left: 15px;
+	  
+	}
+  
+	.nav-item.submenu.show > .dropdown {
+	  display: block;
+	}
+  
+	.nav-link {
+	  display: block;
+	  padding: 10px;
+	}
+  }
+   */
+
+   ul.dropdown {
+	display: none;
+	list-style: none;
+	padding-left: 15px;
+	background: #f9f9f9;
+  }
+  
+  li.submenu {
+	position: relative;
+  }
+  
+  li.submenu:hover > ul.dropdown {
+	display: block;
+  }
+  
+  /* Show submenu if "show" class is added via JS */
+  li.submenu.show > ul.dropdown {
+	display: block !important;
+  }
+  
+  /* Optional style enhancements */
+  .nav-link {
+	display: block;
+	padding: 10px;
+	color: #000;
+	text-decoration: none;
+	
+  }
+  
+  .nav-link:hover {
+	background: #ddd;
+  }
+  
+  /* Mobile dropdown arrow */
+  @media (max-width: 991px) {
+	
+  
+	
+  
+	ul.dropdown {
+	  position: static;
+	}
+  }
+  
+
