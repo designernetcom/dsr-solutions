@@ -1210,7 +1210,7 @@ header.main-header .header-sticky.active{
 }
 
 .service-content-title h2{
-	width: calc(100% - 90px);
+	
 	font-size: 22px;
 	text-transform: capitalize;
 	line-height: 1.4em;
@@ -6389,6 +6389,20 @@ h3{
 	right: 0px;
 	z-index: 9999 !important;
 }
+.fix-btn{
+	flex-direction: column;
+	position: absolute;
+	position: fixed;
+	top: 150px;
+	right: 0px;
+	z-index: 9999 !important;
+	writing-mode: vertical-rl !important;
+	
+}
+.inquiry-btn{
+	writing-mode: vertical-lr !important;
+	background-color: #000 !important;
+}
 .fix-icon .fa-facebook{
 	background-color: #3b5998 !important;
 	font-size: 25px;
@@ -6536,3 +6550,15 @@ ul.dropdown {
   }
   
 
+
+.fix-icon .fa-phone{
+	background-color:#00ff00!important;
+	font-size: 25px;
+	color: rgb(255, 255, 255) !important;
+}
+.inquiry-btn{
+	background-color: #0a5295 !important;
+	padding: 10px 5px !important;
+	color: white !important;
+	font-weight: 700;
+}
